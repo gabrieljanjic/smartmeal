@@ -14,10 +14,12 @@ builder.Services.AddCors(options =>
     {
         policy
             .WithOrigins(
-                "http://localhost:5173",
-                "https://ambitious-river-09e84b403.3.azurestaticapps.net",
-                "https://smartmeal.gabrieljanjic.com"
-            )
+              "http://localhost:5173",
+              "https://ambitious-river-09e84b403.3.azurestaticapps.net",
+              "https://smartmeal.gabrieljanjic.com",
+              "http://178.105.166.52",
+              "https://smartmeals.gabrieljanjic.com"
+          )
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();

@@ -11,3 +11,5 @@ dist/
 
 *.user
 PublishProfiles/
+/certs/
+/*.pem
