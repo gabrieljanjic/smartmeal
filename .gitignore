@@ -1,0 +1,13 @@
+/.env
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+
+bin/
+obj/
+.vs/
+node_modules/
+dist/
+
+*.user
+PublishProfiles/
