@@ -45,7 +45,6 @@ SmartMeal je web aplikacija za planiranje obroka i pametniju kupovinu namirnica.
 ### Baza podataka
 
 - Microsoft SQL Server 2022
-- Docker volume za trajnu pohranu podataka
 
 ### Vanjski servisi
 
@@ -104,34 +103,6 @@ Kada se promjene pošalju na granu `main`, workflow:
 Status automatizacije može se pratiti u [GitHub Actions](https://github.com/gabrieljanjic/smartmeal/actions).
 
 ---
-
-## Pokretanje lokalno
-
-### Preduvjeti
-
-- Git
-- Docker
-- Docker Compose v2
-
-### 1. Kloniraj repozitorij
-
-```bash
-git clone https://github.com/gabrieljanjic/smartmeal.git
-cd smartmeal
-```
-
-### 2. Konfiguriraj okruženje
-
-U korijenskom direktoriju projekta potrebno je konfigurirati `.env` datoteku s varijablama koje zahtijeva `docker-compose.yml` i backend aplikacija.
-
-Ovisno o konfiguraciji, one uključuju:
-
-- SQL Server postavke i pristupne podatke
-- Connection string za bazu podataka
-- JWT postavke
-- API ključ za vanjski servis cijena
-
-Koristi vlastite vrijednosti za lokalno okruženje. Nemoj dijeliti `.env` datoteku niti spremati tajne podatke u Git.
 
 ## API dokumentacija
 
