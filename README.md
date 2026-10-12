@@ -6,11 +6,11 @@ SmartMeal je web aplikacija za planiranje obroka i pametniju kupovinu namirnica.
 
 ## Screenshots
 
-![Home](docs/screenshots/landing_page.PNG)
+![Home](frontend/docs/screenshots/landing_page.PNG)
 
-![Meal planner](docs/screenshots/meals.PNG)
+![Meal planner](frontend/docs/screenshots/meals.PNG)
 
-![Shopping cart](docs/screenshots/shopping_cart.PNG)
+![Shopping cart](frontend/docs/screenshots/shopping_cart.PNG)
 
 ---
 
